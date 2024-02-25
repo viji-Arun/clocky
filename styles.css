@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+  .img{
+  position: relative;
+        background-image: url("pexels-max-rahubovskiy-6538898.jpg");
+        height: 107vh;
+        width: 1291px;
+        margin-top: -250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 200px;
+    }
+
+
+
+  
+  .clock{
+    background: radial-gradient(circle at center, #f8efef, #a8b7bb, #000000);
+    width: 300px;
+    height: 300px;
+    margin: 50px auto 0;
+    margin-top: -940px;
+    margin-left: 635px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 2vw 4vw -1vw rgba(0, 0, 0, 0.8);
+  }
+  
+  .center{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: gold;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 2px 4px -1px black;
+  }
+  
+  .hour{
+    position: absolute;
+    z-index: 5;
+    width: 4px;
+    height: 65px;
+    background: gold;
+    top: 79px;
+    transform-origin: 50% 72px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: 0 2px 4px -1px black;
+  }
+  
+  .minute{
+    position: absolute;
+    z-index: 6;
+    width: 4px;
+    height: 100px;
+    background: rgb(241, 207, 9);
+    top: 46px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 105px;
+    box-shadow: 0 1px 2px -1px black;
+  }
+  
+  .second{
+    position: absolute;
+    z-index: 7;
+    width: 2px;
+    height: 120px;
+    background: rgb(167, 81, 81);
+    top: 26px;
+    left: 50%;
+    margin-left: -1px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 125px;
+  }
+  
+  span{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poiret One';
+    font-weight: 700;
+    z-index: 4;
+  }
+  
+  .h12{
+    top: 30px;
+    left: 50%;
+    margin-left: -9px;
+  }
+  
+  .h3{
+    top: 140px;
+    right: 30px;
+  }
+  
+  .h6{
+    bottom: 30px;
+    left: 50%;
+    margin-left: -5px;
+  }
+  
+  .h9{
+    left: 32px;
+    top: 140px;
+  }
+  
+  
+  .dials{
+    position: absolute;
+    z-index: 2;
+    width: 2px;
+    height: 12px;
+    background: rgb(215, 215, 215);
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 150px;
+  }
+  
+  .dials:nth-of-type(5n){
+    position: absolute;
+    z-index: 2;
+    width: 4px;
+    height: 25px;
+    background: rgb(24, 23, 23);
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 150px;
+  }
+  
+  .detail{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    border-radius: 7px;
+   
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-size: 11px;
+    top: 200px;
+    left: 50%;
+    margin-left: -60px;
+    font-family: "Poiret One";
+    font-weight: 700;
+    z-index: 3;
+    letter-spacing: 3px;
+    margin-left: -60px;
+    left: 50%;
+  }
+  
+  .date{
+    top: 80px;
+  }
+  
+  .day{
+    top: 200px;
+  }
